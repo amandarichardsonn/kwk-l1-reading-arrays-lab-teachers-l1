@@ -6,7 +6,7 @@
 # Arrays can hold more than just strings, they can hold other arrays! This would be an example of a Nested Data Structure
 
 KlossyPossee = [
-  ["Caroline", "Vivian", "Jessica", "Madhu"],
+  ["Caroline", "Vivian" = ["girl"], "Jessica", "Madhu"],
   ["Azya ", "Natalie", "ChaCha", "Claudia"],
   ["Marisa", "Citlally", "Olivia", "Clare"],
   ["Sara", "Naquaiviera", "Zoe", "Karlie Kloss"],
@@ -15,19 +15,22 @@ KlossyPossee = [
 # As you can see in the example above, we have created the KlossyPossee Array with other Nested Arrays within it
 # But how do we find information stored inside of the arrays?
 # Lets try to find someones name within the nested array!
-puts KlossyPossee[0][1]
+# first we want to do the outer array then we need to cross over into the inner array, remember that index starts at 0
+# two layers means we have to provide two different index values
+
+puts KlossyPossee[0][1][0]
 # ask and give more examples
 
-Television = {
-  "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
-  "Movies" => ["Nemo", "Tangled", "Mulan"]
-}
-Try describing the code above!
-  There are two keys, each key has multiple values inside of arrays, rockets indicate the array
-
-  Television = {
-    "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
-    "Movies" => ["Nemo", "Tangled", "Mulan"]
-  }
-
-puts Television["TV Shows"]
+# Television = {
+#   "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
+#   "Movies" => ["Nemo", "Tangled", "Mulan"]
+# }
+# Try describing the code above!
+#   There are two keys, each key has multiple values inside of arrays, rockets indicate the array
+# 
+#   Television = {
+#     "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
+#     "Movies" => ["Nemo", "Tangled", "Mulan"]
+#   }
+# 
+# puts Television["TV Shows"]
