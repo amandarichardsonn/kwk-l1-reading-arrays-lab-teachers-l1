@@ -21,16 +21,16 @@ KlossyPossee = [
 puts KlossyPossee[0][1]
 # ask and give more examples
 
-# Television = {
-#   "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
-#   "Movies" => ["Nemo", "Tangled", "Mulan"]
-# }
-# Try describing the code above!
-#   There are two keys, each key has multiple values inside of arrays, rockets indicate the array
-#
-#   Television = {
-#     "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
-#     "Movies" => ["Nemo", "Tangled", "Mulan"]
-#   }
-#
-# puts Television["TV Shows"]
+Television = {
+  "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
+  "Movies" => ["Nemo", "Tangled", "Mulan"]
+}
+Try describing the code above!
+  There are two keys, each key has multiple values inside of arrays, rockets indicate the array
+
+  Television = {
+    "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
+    "Movies" => ["Nemo", "Tangled", "Mulan"]
+  }
+
+puts Television["TV Shows"]
