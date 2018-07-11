@@ -35,3 +35,6 @@
 # but what if we want a specific name of a TV Show?
 
 # puts Television["TV Shows"][0]
+
+
+# Nested data structure will come in handy for your final project if your are thinking about doing something that involves organizing, interpreting 
