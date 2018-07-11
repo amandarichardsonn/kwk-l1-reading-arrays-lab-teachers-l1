@@ -16,6 +16,7 @@ KlossyPossee = [
 # But how do we find information stored inside of the arrays?
 # Lets try to find someones name within the nested array!
 puts KlossyPossee[0][1]
+# ask and give more examples
 
 Television = {
   "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
