@@ -12,11 +12,11 @@ KlossyPossee = [
   ["Sara", "Naquaiviera", "Zoe", "Karlie Kloss"],
   ["Vlad", "Tierraney", "Janice", "Amanda"]
 ]
-As you can see in the example above, we have created the KlossyPossee Array with other Nested Arrays within it
-But how do we find information stored inside of the arrays?
-Lets try to find someones name within the nested array!
-first we want to do the outer array then we need to cross over into the inner array, remember that index starts at 0
-two layers means we have to provide two different index values
+# As you can see in the example above, we have created the KlossyPossee Array with other Nested Arrays within it
+# But how do we find information stored inside of the arrays?
+# Lets try to find someones name within the nested array!
+# first we want to do the outer array then we need to cross over into the inner array, remember that index starts at 0
+# two layers means we have to provide two different index values
 
 puts KlossyPossee[0][1]
 # ask and give more examples
