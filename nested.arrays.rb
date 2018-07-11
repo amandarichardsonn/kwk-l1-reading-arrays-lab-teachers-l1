@@ -30,4 +30,4 @@ Television = {
 
 # Next lets ask the program to give us an output
 
-puts Television["TV Shows"]
+puts Television["TV Shows"][0]
