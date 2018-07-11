@@ -28,6 +28,6 @@ Television = {
   "Movies" => ["Nemo", "Tangled", "Mulan"]
 }
 
-Next lets ask the program to give us
+# Next lets ask the program to give us an output
 
 puts Television["TV Shows"]
