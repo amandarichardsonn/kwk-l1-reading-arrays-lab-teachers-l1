@@ -23,10 +23,10 @@
 
 # # Instead of doing Arrays inside of arrays, we can also do Nested Arrays in Hashes
 # We are using Television as a hashe and we are using strings as our keys and arrays as our values for the keys
-# Television = {
-#   "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
-#   "Movies" => ["Nemo", "Tangled", "Mulan"]
-# }
+Television = {
+  "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
+  "Movies" => ["Nemo", "Tangled", "Mulan"]
+}
 
 # Next lets ask the program to give us an output
 
