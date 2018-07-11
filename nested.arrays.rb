@@ -21,12 +21,13 @@ KlossyPossee = [
 puts KlossyPossee[0][1]
 # ask and give more examples
 
+# # Instead of doing Arrays inside of arrays, we can also do Nested Arrays in Hashes
+# We are using Television as a hashe and we are using strings as our keys and arrays as our values for the keys
 Television = {
   "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
   "Movies" => ["Nemo", "Tangled", "Mulan"]
 }
-# Try describing the code above!
-#   There are two keys, each key has multiple values inside of arrays, rockets indicate the array
+
 
   Television = {
     "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
