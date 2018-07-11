@@ -30,4 +30,8 @@ Television = {
 
 # Next lets ask the program to give us an output
 
+puts Television["TV Shows"]
+
+but what if we want a specific name of a TV Show?
+
 puts Television["TV Shows"][0]
