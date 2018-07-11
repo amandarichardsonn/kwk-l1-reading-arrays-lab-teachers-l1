@@ -6,7 +6,7 @@
 # Arrays can hold more than just strings, they can hold other arrays! This would be an example of a Nested Data Structure
 
 KlossyPossee = [
-  ["Caroline", "Vivian" = ["girl"], "Jessica", "Madhu"],
+  ["Caroline", "Vivian", "Jessica", "Madhu"],
   ["Azya ", "Natalie", "ChaCha", "Claudia"],
   ["Marisa", "Citlally", "Olivia", "Clare"],
   ["Sara", "Naquaiviera", "Zoe", "Karlie Kloss"],
@@ -27,10 +27,10 @@ puts KlossyPossee[0][1][0]
 # }
 # Try describing the code above!
 #   There are two keys, each key has multiple values inside of arrays, rockets indicate the array
-# 
+#
 #   Television = {
 #     "TV Shows" => ["The Office", "Greys Anatomy", "Stranger Things"],
 #     "Movies" => ["Nemo", "Tangled", "Mulan"]
 #   }
-# 
+#
 # puts Television["TV Shows"]
