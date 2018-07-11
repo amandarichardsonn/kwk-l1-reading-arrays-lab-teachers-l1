@@ -12,8 +12,8 @@ KlossyPossee = [
   ["Sara", "Naquaiviera", "Zoe", "Karlie Kloss"],
   ["Vlad", "Tierraney", "Janice", "Amanda"]
 ]
-
-
+# As you can see in the example above, we have created the KlossyPossee Array with other Nested Arrays within it
+# But how do we find information stored inside of the arrays?
 # Lets try to find someones name within the nested array!
 puts KlossyPossee[0][1]
 
